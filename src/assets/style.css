@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+a {
+  color: inherit;
+}
+@media (max-width: 768px) {
+  .dashboard, .tickets, .auth-page {
+    padding: 1rem;
+  }
+}
